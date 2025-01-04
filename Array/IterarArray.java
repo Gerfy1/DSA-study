@@ -45,6 +45,9 @@ Porque utiliamos o num?
 
 Quando dizemos "sum+= num;" estamos dizendo para somar o valor atual do elemento (num) ao acumulador (sum).
 Cada elemento em "ar" é do tipo "Long", então o loop pega um elemento de cada vez e armazena em "num".
+
+- Cada elemento da lista ar (que é uma lista de números grandes do tipo Long), o elemento atual é armazenado na variável num. Ou seja, num é uma variável temporária que o loop for usa para acessar cada elemento da lista, um de cada vez.
+Então em sum += num; Você está dizendo para adicionar o valor do elemento atual (num) ao acumulador (sum).
 */
 import java.io.*;
 import java.math.*;
